@@ -1,7 +1,8 @@
 package TaskOne.Core;
 
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.InputMismatchException;
@@ -11,6 +12,7 @@ import java.util.stream.Collectors;
 public class Core {
 
     private final String START_POSITION = "/";
+    private final int MAX_BYTES_SIZE = 10000000;
     private File files = new File(START_POSITION);
     private Scanner scanner = new Scanner(System.in);
     boolean loop = true;
@@ -25,6 +27,7 @@ public class Core {
                 switch (userPath) {
                     case "cd" -> execute(scanner.next());
                     case ".." -> up();
+                    case "read" -> readFile(scanner.next());
                     case "exit" -> loop = false;
                     default -> System.out.println("Unknown command!");
                 }
@@ -50,6 +53,17 @@ public class Core {
             return;
         }
         throw new FileNotFoundException("No files found!");
+    }
+
+    private void readFile(String filePath) throws IOException {
+        try (InputStream is = new FileInputStream(filePath)) {
+            if (Files.size(Path.of(filePath)) >= MAX_BYTES_SIZE){
+                throw new IOException("File is too big to read!!!");
+            }
+            System.out.println(new String(is.readAllBytes()));
+        } catch (IOException ex) {
+            throw new IOException(ex);
+        }
     }
 
     private void printFiles(File files) {
