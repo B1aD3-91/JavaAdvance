@@ -29,7 +29,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>TaskThree.Main</mainClass>
+              <mainClass>fully.qualified.MainClass</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>
