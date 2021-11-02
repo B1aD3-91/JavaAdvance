@@ -1,7 +1,7 @@
-package TaskFour.Model;
+package TaskFour1.Model;
 
-import TaskFour.Exceptions.MineIsEmptyException;
-import TaskFour.Mine.Mine;
+import TaskFour1.Exceptions.MineIsEmptyException;
+import TaskFour1.Mine.Mine;
 import lombok.SneakyThrows;
 
 import java.util.Random;
@@ -10,7 +10,7 @@ public class Miner implements Runnable {
 
     private final Mine mine;
     private final Random rnd = new Random();
-    private String name;
+    private final String name;
     private int hasGolds;
 
     public Miner(String minerName, Mine mine) {
@@ -19,20 +19,8 @@ public class Miner implements Runnable {
         System.out.printf("Created worker: %s%n", minerName);
     }
 
-    public int getHasGolds() {
-        return hasGolds;
-    }
-
     public void addGoldToPersonalCart(int gold) {
         this.hasGolds += gold;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     @SneakyThrows

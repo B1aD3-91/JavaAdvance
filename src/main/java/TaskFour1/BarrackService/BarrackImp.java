@@ -1,7 +1,7 @@
-package TaskFour.BarrackService;
+package TaskFour1.BarrackService;
 
-import TaskFour.Mine.Mine;
-import TaskFour.Model.Miner;
+import TaskFour1.Mine.Mine;
+import TaskFour1.Model.Miner;
 import lombok.SneakyThrows;
 
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
-package TaskFour.Mine;
+package TaskFour1.Mine;
 
-import TaskFour.Exceptions.MineIsEmptyException;
+import TaskFour1.Exceptions.MineIsEmptyException;
 import lombok.SneakyThrows;
 
 public class Mine {
