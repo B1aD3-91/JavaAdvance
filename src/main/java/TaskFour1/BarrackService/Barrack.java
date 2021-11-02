@@ -1,4 +1,4 @@
-package TaskFour.BarrackService;
+package TaskFour1.BarrackService;
 
 public interface Barrack {
 
