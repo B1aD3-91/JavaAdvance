@@ -1,4 +1,4 @@
-package TaskFour1.Exceptions;
+package HomeWork5_1.Exceptions;
 
 public class MineIsEmptyException extends RuntimeException {
     public MineIsEmptyException() {

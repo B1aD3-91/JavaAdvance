@@ -1,6 +1,6 @@
-package TaskFour2;
+package HomeWork5_2;
 
-import TaskFour2.Customer.Customer;
+import HomeWork5_2.Customer.Customer;
 
 import java.util.Collections;
 

@@ -1,4 +1,4 @@
-package TaskFour2.McDuck;
+package HomeWork5_2.McDuck;
 
 import lombok.SneakyThrows;
 

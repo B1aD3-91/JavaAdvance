@@ -1,8 +1,10 @@
-package TaskTwo;
+package HomeWork3;
 
 import javax.swing.*;
 import java.awt.*;
-import java.io.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 
 public class Window extends JFrame {

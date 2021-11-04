@@ -1,6 +1,6 @@
-package TaskThree;
+package HomeWork4;
 
-import TaskTwo.Window;
+import HomeWork3.Window;
 import lombok.SneakyThrows;
 
 public class Main {
