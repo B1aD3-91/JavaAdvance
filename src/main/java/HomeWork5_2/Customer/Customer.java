@@ -1,6 +1,6 @@
-package TaskFour2.Customer;
+package HomeWork5_2.Customer;
 
-import TaskFour2.McDuck.McDuck;
+import HomeWork5_2.McDuck.McDuck;
 import lombok.SneakyThrows;
 
 public class Customer implements Runnable {

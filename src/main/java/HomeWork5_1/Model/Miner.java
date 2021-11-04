@@ -1,7 +1,7 @@
-package TaskFour1.Model;
+package HomeWork5_1.Model;
 
-import TaskFour1.Exceptions.MineIsEmptyException;
-import TaskFour1.Mine.Mine;
+import HomeWork5_1.Exceptions.MineIsEmptyException;
+import HomeWork5_1.Mine.Mine;
 import lombok.SneakyThrows;
 
 import java.util.Random;

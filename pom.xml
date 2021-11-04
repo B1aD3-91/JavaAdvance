@@ -29,7 +29,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>TaskThree.Main</mainClass>
+              <mainClass>HomeWork4.Main</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>

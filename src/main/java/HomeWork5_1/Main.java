@@ -1,6 +1,6 @@
-package TaskFour1;
+package HomeWork5_1;
 
-import TaskFour1.BarrackService.BarrackImp;
+import HomeWork5_1.BarrackService.BarrackImp;
 
 public class Main {
     public static void main(String[] args) {

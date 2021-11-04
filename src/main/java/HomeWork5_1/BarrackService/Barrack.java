@@ -1,4 +1,4 @@
-package TaskFour1.BarrackService;
+package HomeWork5_1.BarrackService;
 
 public interface Barrack {
 
