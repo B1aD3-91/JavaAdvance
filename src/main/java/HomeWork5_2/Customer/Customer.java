@@ -5,7 +5,12 @@ import lombok.SneakyThrows;
 
 public class Customer implements Runnable {
 
-    private final McDuck mcDuck = new McDuck();
+
+    private final McDuck mcDuck;
+
+    public Customer(McDuck mcDuck) {
+        this.mcDuck = mcDuck;
+    }
 
     @SneakyThrows
     public void buySomething() {
