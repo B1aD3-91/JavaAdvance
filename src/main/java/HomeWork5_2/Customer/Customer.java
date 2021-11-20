@@ -5,7 +5,6 @@ import lombok.SneakyThrows;
 
 public class Customer implements Runnable {
 
-
     private final McDuck mcDuck;
 
     public Customer(McDuck mcDuck) {
