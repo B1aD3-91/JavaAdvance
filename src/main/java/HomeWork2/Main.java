@@ -1,6 +1,6 @@
-package TaskOne;
+package HomeWork2;
 
-import TaskOne.Core.Core;
+import HomeWork2.Core.Core;
 
 public class Main {
 
